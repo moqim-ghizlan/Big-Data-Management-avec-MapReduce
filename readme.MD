@@ -13,6 +13,7 @@ Ce projet illustre l'utilisation de MapReduce pour traiter un large ensemble de 
 ---
 
 ## Structure du Projet
+- **sujet** : Description du projet et des tâches à réaliser.
 - **Code Python** : Implémentation des étapes Map et Reduce.
 - **Données** : Texte à analyser (fichier `large-txt.txt`).
 - **Graphiques** : Résultats visuels sur les performances des phases.
@@ -25,7 +26,7 @@ Ce projet illustre l'utilisation de MapReduce pour traiter un large ensemble de 
 ### Étape 1 : Cloner le Répertoire
 Clonez ce dépôt :
 ```bash
-git clone <url-du-dépôt>
+git clone https://github.com/moqim-ghizlan/Big-Data-Management-avec-MapReduce.git
 cd big_data_mapreduce
 ```
 
@@ -36,7 +37,7 @@ pip install matplotlib
 ```
 
 ### Étape 3 : Placement des Données
-Assurez-vous que le fichier `large-txt.txt` est dans le répertoire de travail. Vous pouvez télécharger le fichier [ici](google drive link).
+Assurez-vous que le fichier `large-txt.txt` est dans le répertoire de travail. Vous pouvez télécharger le fichier [ici](https://drive.google.com/file/d/11wZ5Qd2CaKWO7OsNRHuB5l4QIWRK0gvj/view?usp=drive_link).
 
 ---
 

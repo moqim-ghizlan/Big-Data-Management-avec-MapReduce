@@ -337,7 +337,7 @@ plt.title('Temps total d\'exécution vs Nombre de processeurs', fontsize=14)
 plt.grid(True)
 plt.show()
 ```
-![img](./phraph_1.png)
+![img](https://raw.githubusercontent.com/moqim-ghizlan/Big-Data-Management-avec-MapReduce/refs/heads/main/phraph_1.png)
 
 ### Interpretation des résultats :
 
@@ -360,7 +360,7 @@ plt.title('Temps de la phase Map vs Nombre de processeurs', fontsize=14)
 plt.grid(True)
 plt.show()
 ```
-![img](./phraph_2.png)
+![img](https://raw.githubusercontent.com/moqim-ghizlan/Big-Data-Management-avec-MapReduce/refs/heads/main/phraph_2.png)
 
 ### Interpretation des résultats :
 Ce graphique montre comment le temps requis pour la phase Map évolue en fonction du nombre de processus. On observe une diminution progressive du temps de Map à mesure que le nombre de processus augmente. Cela s'explique par la capacité à diviser efficacement le travail en segments (chunks), chaque processus s'occupant d'un sous-ensemble de données. Cette réduction est particulièrement marquée au début, entre deux et six processus, où l'on constate une accélération notable de l'exécution. Cela montre que le parallélisme est particulièrement efficace dans cette plage, réduisant considérablement la durée de la phase Map.
@@ -384,7 +384,7 @@ plt.grid(True)
 plt.show()
 ```
 
-![img](./phraph_3.png)
+![img](https://raw.githubusercontent.com/moqim-ghizlan/Big-Data-Management-avec-MapReduce/refs/heads/main/phraph_2.png)
 
 ### Interpretation des résultats :
 Ce graphique montre comment le temps nécessaire pour la phase Reduce évolue en fonction du nombre de processus. Contrairement à la phase Map, on constate une augmentation progressive du temps de la phase Reduce avec l'accroissement du nombre de processus. Cette tendance s'explique par la nature même de la phase Reduce, qui implique la combinaison des résultats intermédiaires issus de la phase Map. Plus il y a de processus, plus il y a de résultats partiels à fusionner, ce qui alourdit cette étape.
