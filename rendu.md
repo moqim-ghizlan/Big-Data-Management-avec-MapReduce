@@ -8,13 +8,7 @@
    - Démontrer l'importance du multi-processing dans le traitement distribué des données.
    - L'enjeux et l'avantage de la distribution
 
-
-Dans ce rendu, vous trouverez les parties suivantes:
-
-  - [Partie 1 | Code](#Partie-1)
-  - [Partie 2 | Analayse détaille](#Partie-2)
-
-## Structure du projet
+## Expliquer le processus de map-reduce
 
 Nous allons commencer par examiner un fichier texte contenant une grande quantité de données afin d'analyser son contenu. L'objectif est de compter combien de fois chaque mot apparaît dans le fichier, en utilisant à la fois une méthode séquentielle et une méthode parallèle. Dans la méthode séquentielle, un seul processeur parcourt l'ensemble du fichier pour effectuer le comptage des mots. En revanche, dans la méthode parallèle, plusieurs processus fonctionnent en même temps pour accélérer le traitement.
 
