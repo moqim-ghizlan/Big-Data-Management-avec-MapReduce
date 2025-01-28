@@ -378,7 +378,7 @@ plt.grid(True)
 plt.show()
 ```
 
-![img](https://raw.githubusercontent.com/moqim-ghizlan/Big-Data-Management-avec-MapReduce/refs/heads/main/phraph_2.png)
+![img](https://raw.githubusercontent.com/moqim-ghizlan/Big-Data-Management-avec-MapReduce/refs/heads/main/phraph_3.png)
 
 ### Interpretation des résultats :
 Ce graphique montre comment le temps nécessaire pour la phase Reduce évolue en fonction du nombre de processus. Contrairement à la phase Map, on constate une augmentation progressive du temps de la phase Reduce avec l'accroissement du nombre de processus. Cette tendance s'explique par la nature même de la phase Reduce, qui implique la combinaison des résultats intermédiaires issus de la phase Map. Plus il y a de processus, plus il y a de résultats partiels à fusionner, ce qui alourdit cette étape.
